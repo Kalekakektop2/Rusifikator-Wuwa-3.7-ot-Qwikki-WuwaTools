@@ -1,6 +1,6 @@
 > **Актуальная версия:** Wuthering Waves **3.7.10** · русификатор **beta3** · Windows и Android
 
-# Русификатор Wuthering Waves 3.7 от Qwikki / WuwaTools
+# Русификатор Wuthering Waves 3.7 от Qwikki / WuwaTools "WuwaHub"
 
 Неофициальный фанатский русификатор текста и интерфейса Wuthering Waves. В игре оставьте язык текста **English**. Озвучка не заменяется.
 
