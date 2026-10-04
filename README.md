@@ -6,11 +6,7 @@
   <p><strong>Русский текст и интерфейс для Wuthering Waves</strong><br>
   Оригинальная озвучка остаётся без изменений.</p>
 
-  <p>
-    <img alt="Версия игры 3.7.10" src="https://img.shields.io/badge/Игра-3.7.10-263847?style=flat-square">
-    <img alt="Русификатор beta3" src="https://img.shields.io/badge/Перевод-beta3-c5b68e?style=flat-square">
-    <img alt="Windows и Android" src="https://img.shields.io/badge/Платформы-Windows%20%7C%20Android-263847?style=flat-square">
-  </p>
+  <p><strong>Игра 3.7.10 &nbsp;·&nbsp; Перевод beta3 &nbsp;·&nbsp; Windows и Android</strong></p>
 </div>
 
 ---
