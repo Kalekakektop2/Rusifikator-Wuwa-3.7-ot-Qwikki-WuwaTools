@@ -1,9 +1,10 @@
+<img width="1672" height="941" alt="бета1" src="https://github.com/user-attachments/assets/d2516210-12dc-489e-84fc-51bad4f254a3" />
 # Русификатор Wuthering Waves 3.7 от Qwikki / WuwaTools
 
 **Актуальная версия игры:** 3.7.10  
 **Версия русификатора:** beta3  
 **Автор:** Qwikki / WuwaTools
-
+<img width="1672" height="941" alt="бета1" src="https://github.com/user-attachments/assets/d2516210-12dc-489e-84fc-51bad4f254a3" />
 Неофициальный русский перевод текста и интерфейса Wuthering Waves. Оригинальная озвучка не изменяется.
 
 - **Партнёр:** [wuwa.mvdev.space](https://wuwa.mvdev.space/)
