@@ -1,6 +1,3 @@
-![Русификатор Wuthering Waves 3.7 от Qwikki / WuwaTools](assets/cover.svg)
-
-
 **Русский перевод текста и интерфейса Wuthering Waves**  
 Оригинальная озвучка остаётся без изменений.
 
