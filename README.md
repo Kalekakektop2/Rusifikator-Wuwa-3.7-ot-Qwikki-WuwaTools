@@ -1,4 +1,3 @@
-<img width="1672" height="941" alt="бета1" src="https://github.com/user-attachments/assets/d2516210-12dc-489e-84fc-51bad4f254a3" />
 # Русификатор Wuthering Waves 3.7 от Qwikki / WuwaTools
 
 **Актуальная версия игры:** 3.7.10  
