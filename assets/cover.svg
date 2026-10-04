@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="440" viewBox="0 0 1600 440" fill="none">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1600" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1119"/>
+      <stop offset=".56" stop-color="#111E2B"/>
+      <stop offset="1" stop-color="#172A37"/>
+    </linearGradient>
+    <linearGradient id="trace" x1="910" y1="40" x2="1510" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8B88B" stop-opacity=".1"/>
+      <stop offset=".5" stop-color="#9FD6D5" stop-opacity=".68"/>
+      <stop offset="1" stop-color="#D3C39A" stop-opacity=".18"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="0" cy="0" r="1" gradientTransform="matrix(490 0 0 260 1260 220)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F8490" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#4F8490" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#D9E4E5" stroke-opacity=".035"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="440" rx="20" fill="url(#night)"/>
+  <rect width="1600" height="440" rx="20" fill="url(#grid)"/>
+  <rect width="1600" height="440" rx="20" fill="url(#haze)"/>
+  <path d="M870 452C1008 366 1038 264 1136 210c111-62 153 24 262-31 69-35 121-101 207-164" stroke="url(#trace)" stroke-width="1.6"/>
+  <path d="M880 465c145-83 168-166 264-211 99-47 153 31 264-18 74-33 131-97 205-155" stroke="url(#trace)" stroke-opacity=".72"/>
+  <path d="M900 468c149-68 183-115 281-162 104-50 172 21 277-30 86-41 126-92 175-133" stroke="url(#trace)" stroke-opacity=".44"/>
+  <path d="M1026 0c42 63 66 135 45 203-18 60-75 98-113 145-22 27-39 57-50 92" stroke="#D1C095" stroke-opacity=".22"/>
+  <circle cx="1302" cy="191" r="3" fill="#E2D5B3" fill-opacity=".8"/>
+  <circle cx="1204" cy="326" r="2" fill="#B8D9D7" fill-opacity=".75"/>
+  <circle cx="1482" cy="120" r="2" fill="#B8D9D7" fill-opacity=".7"/>
+  <circle cx="1119" cy="100" r="1.5" fill="#E2D5B3" fill-opacity=".6"/>
+  <path d="M82 76h54" stroke="#D4C49A" stroke-width="2"/>
+  <text x="82" y="111" fill="#D4C49A" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="3.2">QWIKKI / WUWATOOLS</text>
+  <text x="78" y="208" fill="#F1F3F2" font-family="Segoe UI,Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="-1.8">Русификатор</text>
+  <text x="80" y="267" fill="#F1F3F2" font-family="Segoe UI,Arial,sans-serif" font-size="42" font-weight="500" letter-spacing="-.9">Wuthering Waves 3.7</text>
+  <text x="82" y="321" fill="#AEBCC3" font-family="Segoe UI,Arial,sans-serif" font-size="18" letter-spacing=".2">Текст и интерфейс на русском. Оригинальная озвучка.</text>
+  <rect x="82" y="360" width="134" height="38" rx="19" fill="#D4C49A"/>
+  <text x="149" y="385" text-anchor="middle" fill="#14202A" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing=".5">ВЕРСИЯ 3.7.10</text>
+</svg>
