@@ -1,77 +1,46 @@
-> **Актуальная версия:** Wuthering Waves **3.7.10** · русификатор **beta3** · Windows и Android
+<div align="center">
+  <img src="assets/cover.svg" alt="Русификатор Wuthering Waves 3.7 от Qwikki / WuwaTools" width="100%">
 
-# Русификатор Wuthering Waves 3.7 от Qwikki / WuwaTools "WuwaHub"
+  <br>
 
-Неофициальный фанатский русификатор текста и интерфейса Wuthering Waves. В игре оставьте язык текста **English**. Озвучка не заменяется.
+  <p><strong>Русский текст и интерфейс для Wuthering Waves</strong><br>
+  Оригинальная озвучка остаётся без изменений.</p>
 
-## Авторы и партнёр
+  <p>
+    <img alt="Версия игры 3.7.10" src="https://img.shields.io/badge/Игра-3.7.10-263847?style=flat-square">
+    <img alt="Русификатор beta3" src="https://img.shields.io/badge/Перевод-beta3-c5b68e?style=flat-square">
+    <img alt="Windows и Android" src="https://img.shields.io/badge/Платформы-Windows%20%7C%20Android-263847?style=flat-square">
+  </p>
+</div>
 
-- **Автор и команда русификатора:** Qwikki / WuwaTools.
-- **Партнёр:** [wuwa.mvdev.space](https://wuwa.mvdev.space/).
-- **Поддержка и обсуждение проекта:** [Telegram Wuwa News](https://t.me/WuwaNewss).
-- **Скачать русификатор:** [wuwahub.ru](https://wuwahub.ru/).
-- Техническая основа загрузчика: [wuwa-viet-hoa](https://github.com/Lai-Hoang/wuwa-viet-hoa), проект Lai-Hoang, лицензия MIT.
-<img width="1672" height="941" alt="4d167284-979c-40de-b74b-9302472f35c9" src="https://github.com/user-attachments/assets/7e21da5b-7d06-40be-bea2-d5ca9bd8d28f" />
-## О русификаторе
+---
 
-Текущая сборка подготовлена для версии игры **3.7.10**. В комплект входят текстовый перевод и шрифт с поддержкой кириллицы. Состав переводимых строк меняется вместе с обновлениями игры; недавно добавленный текст может оставаться на английском до выхода следующей сборки.
+## Проект
 
-| Компонент | Файл текущей сборки | Назначение |
-|---|---|---|
-| Текст | `qwikki wuwatools beta3_98_P.pak` | Русский текст и интерфейс |
-| Шрифт | `qwikki wowatool font_99_P.pak` | Отображение кириллицы |
-| Загрузчик Windows | `winmm.dll`, `wuwaVietHoa.dll` | Подключение модифицированных PAK-файлов на ПК |
+Фанатский русификатор Wuthering Waves от **Qwikki / WuwaTools**. Актуальная сборка рассчитана на игру версии **3.7.10**.
 
-Файлы PAK и DLL в этом репозитории не хранятся. Скачать русификатор можно на [wuwahub.ru](https://wuwahub.ru/).
+В перевод входят русский текст и шрифт с поддержкой кириллицы. Новые строки игры могут появляться на английском до обновления перевода.
 
-## Установка на Windows
+## Скачать
 
-Рекомендуемый способ — через Wuthering Hub:
+| Платформа | Загрузка |
+|:--|:--|
+| Windows | [wuwahub.ru](https://wuwahub.ru/) |
+| Android | [Яндекс Диск](https://disk.yandex.ru/d/OctfIW0BgCWg0g) |
 
-1. Закройте игру.
-2. Установите или откройте [Wuthering Hub](https://wuwahub.ru/) и укажите папку игры, если лаунчер не нашёл её автоматически.
-3. Выберите установку русского перевода и дождитесь проверки файлов.
-4. Запускайте игру кнопкой «Играть» в Hub.
+## Скриншот
 
-При ручной установке DLL должны находиться в `Wuthering Waves Game\Client\Binaries\Win64\` рядом с `Client-Win64-Shipping.exe`, а PAK-файлы — в `Wuthering Waves Game\Client\Content\Paks\~mods\`. Папку `~mods` можно создать, если её нет.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7e21da5b-7d06-40be-bea2-d5ca9bd8d28f" alt="Русификатор Wuthering Waves в игре" width="92%">
+</div>
 
-## Установка на Android
+## Авторы и ссылки
 
-**Скачать русификатор для телефона:** [Яндекс Диск](https://disk.yandex.ru/d/OctfIW0BgCWg0g).
+- **Автор русификатора:** Qwikki / WuwaTools
+- **Партнёр:** [wuwa.mvdev.space](https://wuwa.mvdev.space/)
+- **Поддержка и обсуждение:** [Telegram Wuwa News](https://t.me/WuwaNewss)
+- **Основа загрузчика:** [wuwa-viet-hoa](https://github.com/Lai-Hoang/wuwa-viet-hoa) от Lai-Hoang, лицензия MIT
 
-Root не требуется. Игра должна быть запущена хотя бы один раз. Скопируйте два PAK-файла из актуальной Android-сборки в один из путей:
+---
 
-```text
-Android/data/com.kurogame.wutheringwaves.global/files/UE4Game/Client/Client/Saved/Paks/
-```
-
-Если такой папки `Paks` нет, проверьте:
-
-```text
-Android/data/com.kurogame.wutheringwaves.global/files/UE4Game/Client/Client/Saved/Resources/Video/Paks/
-```
-
-Имена Android-файлов:
-
-- `pakchunk0-Android_ASTC_10000_P.pak` — текстовый перевод;
-- `pakchunk0-Android_ASTC_10001_P.pak` — шрифт.
-
-Не заменяйте и не удаляйте штатные PAK-файлы игры. После копирования полностью закройте игру и запустите её снова. Если Android/data недоступна в файловом менеджере, используйте USB-подключение либо Shizuku с ZArchiver/MT Manager.
-
-## Совместимость и ограничения
-
-- Официальный русский язык в игре не включён; для работы перевода выберите **English**.
-- Переводятся текст и интерфейс; оригинальная озвучка остаётся без изменений.
-- После обновления игры может потребоваться новая версия русификатора.
-- Это неофициальная модификация. Она не связана с Kuro Games; совместимость и возможные последствия использования модифицированных файлов зависят от обновлений игры и её правил. Используйте на своё усмотрение.
-- Перед установкой сторонних файлов проверяйте их источник и контрольные суммы, если они опубликованы.
-
-## Сообщить об ошибке
-
-По вопросам поддержки и обсуждения обращайтесь в [Telegram Wuwa News](https://t.me/WuwaNewss). В сообщении об ошибке укажите версию игры, платформу, экран/строку и приложите снимок экрана без личных данных.
-
-## Лицензия и права
-
-Лицензия MIT в этом репозитории относится только к документации и материалам, созданным авторами репозитория. Она не распространяется на игру, её ресурсы, переводные PAK-файлы, DLL, сторонние библиотеки и материалы Kuro Games. Права на каждый внешний компонент остаются у его правообладателей.
-
-**Wuthering Waves** и связанные материалы принадлежат Kuro Games. Этот фанатский проект не является официальным и не утверждается разработчиком или издателем игры.
+Это неофициальный фанатский проект, не связанный с Kuro Games. Права на Wuthering Waves и игровые материалы принадлежат их правообладателям.
