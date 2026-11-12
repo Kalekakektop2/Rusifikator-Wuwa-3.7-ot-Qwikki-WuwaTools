@@ -1,32 +1,32 @@
 **Русский перевод текста и интерфейса Wuthering Waves**  
 Оригинальная озвучка остаётся без изменений.
 
-**Игра 3.7.10 · Перевод beta3 · Windows и Android**
+**Игра 3.8.9 · Перевод 1.3.0 · Windows и Android**
 
 </div>
 
 ---
 
-# Русификатор Wuthering Waves 3.7 от Qwikki / WuwaTools
+# Русификатор Wuthering Waves от Qwikki / WuwaTools
 
 Русский перевод текста и интерфейса игры. Сборка включает текстовый перевод и шрифт с поддержкой кириллицы. Озвучка персонажей и музыка остаются оригинальными.
 
-Актуальная сборка подготовлена для игры версии **3.7.10**. Новые строки, добавленные разработчиками после выхода сборки, могут временно отображаться на английском.
+Актуальная сборка подготовлена для игры версии **3.8.9**. Новые строки, добавленные разработчиками после выхода сборки, могут временно отображаться на английском.
 
 ## Скачать
 
 | Платформа | Загрузка |
 |:--|:--|
 | **Windows** | [Скачать Wuthering Hub и перевод](https://wuwahub.ru/) |
-| **Android** | [Скачать сборку для телефона](https://disk.yandex.ru/d/OctfIW0BgCWg0g) |
+| **Android** | [Скачать сборку для телефона · Android 1.3.0](https://wuwahub.ru/translations/android/WuwaHub-Android-1.3.0.zip) |
 
 ## Что входит в сборку
 
-- **Текстовый PAK-файл Windows:** `WuWaTools_WuwaHub_1.2.3_98_P.pak` — русские строки и элементы интерфейса.
+- **Текстовый PAK-файл Windows:** `WuWaTools_WuwaHub_1.3.0_98_P.pak` — русские строки и элементы интерфейса.
 - **PAK-файл шрифта Windows:** `qwikki wowatool font_99_P.pak` — отображение кириллицы.
 - **Файлы загрузчика Windows:** `winmm.dll` и `wuwaVietHoa.dll` — подключение PAK-файлов при запуске.
 
-Для полного отображения перевода нужны оба PAK-файла: перевод и шрифт. Используйте файлы одной версии, сохраняйте имена файлов и не смешивайте их со старыми сборками. Android-файлы распространяются отдельно и могут иметь другие имена.
+**Android 1.3.0:** `pakchunk0-Android_ASTC_10000_P.pak` содержит перевод, `pakchunk0-Android_ASTC_10001_P.pak` — шрифт. Для каждого устройства используйте оба Android-файла из мобильного архива. Не смешивайте мобильные и Windows-пакеты.
 
 ## Установка на Windows
 
@@ -56,7 +56,7 @@ Client\Binaries\Win64\
 
    DLL должны лежать рядом с `Client-Win64-Shipping.exe`.
 
-3. Поместите **оба PAK-файла** — `WuWaTools_WuwaHub_1.2.3_98_P.pak` и `qwikki wowatool font_99_P.pak` — в:
+3. Поместите **оба PAK-файла** — `WuWaTools_WuwaHub_1.3.0_98_P.pak` и `qwikki wowatool font_99_P.pak` — в:
 
 ```text
 Client\Content\Paks\~mods\
@@ -71,8 +71,8 @@ Client\Content\Paks\~mods\
 Для телефона нужна отдельная Android-сборка. **Не копируйте на Android Windows DLL или PAK-файлы для ПК.**
 
 1. Запустите Wuthering Waves хотя бы один раз, затем полностью закройте игру.
-2. Скачайте Android-сборку по ссылке выше. Если она скачалась архивом ZIP, распакуйте его.
-3. Скопируйте оба PAK-файла из Android-сборки — перевод и шрифт — в папку игры. Сначала проверьте основной путь:
+2. Скачайте и распакуйте архив Android 1.3.0 по ссылке выше.
+3. Скопируйте оба файла из архива — `pakchunk0-Android_ASTC_10000_P.pak` и `pakchunk0-Android_ASTC_10001_P.pak` — в папку игры. Сначала проверьте основной путь:
 
 ```text
 Android/data/com.kurogame.wutheringwaves.global/files/UE4Game/Client/Client/Saved/Paks/
@@ -101,7 +101,7 @@ Android/data/com.kurogame.wutheringwaves.global/files/UE4Game/Client/Client/Save
 Проверьте шаги по порядку:
 
 1. **Язык текста — English.** После смены языка полностью перезапустите игру.
-2. **Установлены оба PAK-файла.** В актуальной Windows-сборке это `WuWaTools_WuwaHub_1.2.3_98_P.pak` и `qwikki wowatool font_99_P.pak`: первый содержит перевод, второй — шрифт. На Android используйте именно файлы из Android-сборки.
+2. **Установлены оба PAK-файла.** В актуальной Windows-сборке это `WuWaTools_WuwaHub_1.3.0_98_P.pak` и `qwikki wowatool font_99_P.pak`: первый содержит перевод, второй — шрифт. На Android используйте именно файлы из Android-сборки.
 3. **Файлы находятся в правильных папках.** Для Windows PAK-файлы должны быть в `Client\Content\Paks\~mods\`, а DLL — в `Client\Binaries\Win64\`.
 4. **Убраны старые копии.** В `~mods` не должно оставаться других переводов или резервных PAK-файлов.
 5. **Имена файлов не менялись.** Не добавляйте и не удаляйте расширение `.pak`.
@@ -117,6 +117,7 @@ Android/data/com.kurogame.wutheringwaves.global/files/UE4Game/Client/Client/Save
 
 ## Авторы и материалы
 
+- **Версия перевода:** 1.3.0 · **Игра:** 3.8.9.
 - **Автор русификатора:** Qwikki / WuwaTools.
 - **Партнёр:** [wuwa.mvdev.space](https://wuwa.mvdev.space/).
 - **Поддержка и обсуждение:** [Telegram Wuwa News](https://t.me/WuwaNewss).
