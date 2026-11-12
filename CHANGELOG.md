@@ -1,3 +1,8 @@
+## 1.3.0 — игра 3.8.9 — Android и Windows
+- Обновлён текстовый перевод по выпуску партнёра 1.3.0.
+- Подготовлена Android-сборка: `pakchunk0-Android_ASTC_10000_P.pak` (перевод) и `pakchunk0-Android_ASTC_10001_P.pak` (шрифт).
+- [Скачать Android-архив](https://wuwahub.ru/translations/android/WuwaHub-Android-1.3.0.zip).
+
 # История версий русификатора
 
 ## Документация — 21.10.2026
